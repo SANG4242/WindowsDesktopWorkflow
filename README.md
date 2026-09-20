@@ -38,7 +38,7 @@ DesktopWorkflow 是一个面向 Windows 的开源桌面工作区启动与窗口�
 
 | 发行物 | 文件名 | 说明 |
 | --- | --- | --- |
-| 安装包 | `DesktopWorkflow-Setup-v<VERSION>-x64.exe` | 用户级安装，可选桌面快捷方式和登录后启动 |
+| 安装包 | `DesktopWorkflow-Setup-v<VERSION>-x64.exe` | 用户级英文安装向导，可选桌面快捷方式和登录后启动 |
 | 便携包 | `DesktopWorkflow-v<VERSION>-Portable-x64.zip` | 解压后运行 `DesktopWorkflow.exe`，包含示例、许可证和说明 |
 | 单文件版 | `DesktopWorkflow-v<VERSION>-SingleFile-x64.exe` | 自包含的单个可执行文件 |
 | SHA-256 校验 | `DesktopWorkflow-v<VERSION>-SHA256SUMS.txt` | 校验下载文件完整性 |

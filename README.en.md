@@ -38,7 +38,7 @@ Download an artifact from [Releases](https://github.com/SANG4242/WindowsDesktopW
 
 | Artifact | File name | Description |
 | --- | --- | --- |
-| Installer | `DesktopWorkflow-Setup-v<VERSION>-x64.exe` | Per-user setup with optional desktop shortcut and launch at sign-in |
+| Installer | `DesktopWorkflow-Setup-v<VERSION>-x64.exe` | Per-user English setup with optional desktop shortcut and launch at sign-in |
 | Portable ZIP | `DesktopWorkflow-v<VERSION>-Portable-x64.zip` | Extract and run `DesktopWorkflow.exe`; includes examples, license, and documentation |
 | Single-file executable | `DesktopWorkflow-v<VERSION>-SingleFile-x64.exe` | Self-contained standalone executable |
 | SHA-256 checksums | `DesktopWorkflow-v<VERSION>-SHA256SUMS.txt` | Verify downloaded artifacts |

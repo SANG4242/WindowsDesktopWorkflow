@@ -1,5 +1,5 @@
 ; DesktopWorkflow Inno Setup 配置文件
-; 支持构建免 UAC 提权的用户级现代安装包，内置中文向导、桌面快捷方式与开机启动选项
+; 支持构建免 UAC 提权的用户级现代安装包，提供桌面快捷方式与开机启动选项
 
 #ifndef MyAppVersion
 #define MyAppVersion "1.0.0"
@@ -51,7 +51,6 @@ CloseApplicationsFilter=*.exe
 RestartApplications=no
 
 [Languages]
-Name: "chinesesimplified"; MessagesFile: "compiler:Languages\ChineseSimplified.isl"
 Name: "en"; MessagesFile: "compiler:Default.isl"
 
 [Tasks]
