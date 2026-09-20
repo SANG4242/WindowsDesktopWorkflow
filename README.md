@@ -2,6 +2,7 @@
 
 [English](README.en.md) | 简体中文
 
+[![Build](https://github.com/SANG4242/WindowsDesktopWorkflow/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/SANG4242/WindowsDesktopWorkflow/actions/workflows/build.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/Platform-Windows%2010%20%7C%2011-0078D6.svg)](https://www.microsoft.com/windows)
 [![.NET](https://img.shields.io/badge/.NET-10.0-512BD4.svg)](https://dotnet.microsoft.com/download/dotnet/10.0)
@@ -33,7 +34,7 @@ DesktopWorkflow 是一个面向 Windows 的开源桌面工作区启动与窗口�
 
 ## 下载与运行
 
-从 [Releases](../../releases) 下载适合的发行物：
+从 [Releases](https://github.com/SANG4242/WindowsDesktopWorkflow/releases) 下载适合的发行物：
 
 | 发行物 | 文件名 | 说明 |
 | --- | --- | --- |
@@ -188,8 +189,8 @@ src/DesktopWorkflow.App/
 ### 构建与运行测试
 
 ```powershell
-git clone <repository-url>
-cd DesktopWorkflow
+git clone https://github.com/SANG4242/WindowsDesktopWorkflow.git
+cd WindowsDesktopWorkflow
 
 dotnet build src/DesktopWorkflow.App/DesktopWorkflow.App.csproj -c Release
 dotnet run --project src/DesktopWorkflow.Tests/DesktopWorkflow.Tests.csproj -c Release

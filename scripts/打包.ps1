@@ -156,7 +156,7 @@ try {
             $repositoryUrl = if ($env:GITHUB_SERVER_URL -and $env:GITHUB_REPOSITORY) {
                 "$($env:GITHUB_SERVER_URL)/$($env:GITHUB_REPOSITORY)"
             } else {
-                'https://github.com'
+                'https://github.com/SANG4242/WindowsDesktopWorkflow'
             }
             $installerPath = Join-Path $distDirectory "DesktopWorkflow-Setup-v$Version-x64.exe"
             Move-GeneratedFileToRecycleBin $installerPath

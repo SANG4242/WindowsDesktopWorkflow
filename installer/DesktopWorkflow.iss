@@ -9,7 +9,7 @@
 #define MyAppEnglishName "DesktopWorkflow"
 #define MyAppPublisher "DesktopWorkflow Contributors"
 #ifndef MyAppURL
-#define MyAppURL "https://github.com"
+#define MyAppURL "https://github.com/SANG4242/WindowsDesktopWorkflow"
 #endif
 #define MyAppExeName "DesktopWorkflow.exe"
 

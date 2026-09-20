@@ -2,6 +2,7 @@
 
 English | [简体中文](README.md)
 
+[![Build](https://github.com/SANG4242/WindowsDesktopWorkflow/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/SANG4242/WindowsDesktopWorkflow/actions/workflows/build.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/Platform-Windows%2010%20%7C%2011-0078D6.svg)](https://www.microsoft.com/windows)
 [![.NET](https://img.shields.io/badge/.NET-10.0-512BD4.svg)](https://dotnet.microsoft.com/download/dotnet/10.0)
@@ -33,7 +34,7 @@ It is designed for recurring development, study, writing, operations, and data-a
 
 ## Download and run
 
-Download an artifact from [Releases](../../releases):
+Download an artifact from [Releases](https://github.com/SANG4242/WindowsDesktopWorkflow/releases):
 
 | Artifact | File name | Description |
 | --- | --- | --- |
@@ -188,8 +189,8 @@ Workflow entry point
 ### Build and run tests
 
 ```powershell
-git clone <repository-url>
-cd DesktopWorkflow
+git clone https://github.com/SANG4242/WindowsDesktopWorkflow.git
+cd WindowsDesktopWorkflow
 
 dotnet build src/DesktopWorkflow.App/DesktopWorkflow.App.csproj -c Release
 dotnet run --project src/DesktopWorkflow.Tests/DesktopWorkflow.Tests.csproj -c Release
