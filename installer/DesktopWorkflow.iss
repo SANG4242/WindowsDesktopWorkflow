@@ -96,7 +96,7 @@ begin
     if DirExists(DataDir) then
     begin
       if MsgBox('是否同时删除您保存在本地的工作流配置文件与运行日志？' #13#10 #13#10 +
-                '位置：' + DataDir #13#10 #13#10 +
+                '位置：' + DataDir + #13#10 #13#10 +
                 '提示：点击“否”可为您保留所有工作流配置，以便今后重新安装。',
                 mbConfirmation, MB_YESNO or MB_DEFBUTTON2) = IDYES then
       begin
