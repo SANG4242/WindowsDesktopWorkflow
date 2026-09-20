@@ -7,9 +7,15 @@ English | [简体中文](README.md)
 [![Platform](https://img.shields.io/badge/Platform-Windows%2010%20%7C%2011-0078D6.svg)](https://www.microsoft.com/windows)
 [![.NET](https://img.shields.io/badge/.NET-10.0-512BD4.svg)](https://dotnet.microsoft.com/download/dotnet/10.0)
 
-DesktopWorkflow is an open-source Windows workspace launcher and window layout manager. It saves applications, window matching rules, layouts, and global hotkeys as reusable workflows. A workflow can launch or reuse multiple windows and arrange them from the control window, system tray, or a keyboard shortcut.
+**Open your workspace and restore your preferred window layout with one shortcut.**
 
-It is designed for recurring development, study, writing, operations, and data-analysis workspaces. The application is built with C#, .NET 10, and WPF. It runs locally by default and requires no account or cloud service.
+Tired of reopening your browser and editor, then arranging their windows with `Win + Z` every time you start working?
+
+DesktopWorkflow saves your applications, window matching rules, and layout as a reusable workflow. Run it with a keyboard shortcut to launch or reuse existing windows and arrange them as you like. You can also launch workflows from the main window or system tray.
+
+Supports Windows 11 native Snap Groups, proportional layouts, and multiple monitors; Windows 10 supports proportional layouts. Free and open source, with local configuration and no account or cloud service required.
+
+**[Download the latest release](https://github.com/SANG4242/WindowsDesktopWorkflow/releases/latest)** · [Installation and usage](#download-and-run)
 
 ## Screenshots
 
