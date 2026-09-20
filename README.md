@@ -1,4 +1,4 @@
-# 桌面工作流（DesktopWorkflow）
+# DesktopWorkflow
 
 [English](README.en.md) | 简体中文
 
@@ -7,9 +7,15 @@
 [![Platform](https://img.shields.io/badge/Platform-Windows%2010%20%7C%2011-0078D6.svg)](https://www.microsoft.com/windows)
 [![.NET](https://img.shields.io/badge/.NET-10.0-512BD4.svg)](https://dotnet.microsoft.com/download/dotnet/10.0)
 
-DesktopWorkflow 是一个面向 Windows 的开源桌面工作区启动与窗口布局工具。它把常用应用、窗口识别规则、布局和全局快捷键保存为可复用的工作流，以后可以从控制窗口、系统托盘或快捷键一次启动或复用多个窗口，并恢复预设排列。
+**一键打开工作环境，恢复熟悉的窗口排列。**
 
-适合开发、学习、写作、运维、数据分析等需要反复打开同一组应用的场景。程序使用 C#、.NET 10 和 WPF 开发，默认完全在本地运行，不需要账户或云服务。
+每次开始工作，都要重新打开浏览器、编辑器，再用 `Win + Z` 调整窗口？
+
+DesktopWorkflow 可以把常用应用、窗口识别规则和布局保存为工作流。下次只需一个快捷键，就能启动或复用已有窗口，并按预设布局排列；也可以从主窗口或系统托盘运行。
+
+支持 Windows 11 原生贴靠组、自定义比例布局和多显示器；Windows 10 可使用自定义比例布局。免费开源，配置保存在本地，无需账户或云服务。
+
+**[下载最新版本](https://github.com/SANG4242/WindowsDesktopWorkflow/releases/latest)** · [安装与使用说明](#下载与运行)
 
 ## 界面预览
 
