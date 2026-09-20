@@ -1,0 +1,35 @@
+# .NET 编译与发布产物
+**/[Bb]in/
+**/[Oo]bj/
+# 本地数据、运行日志与私有工作流配置（保护隐私）
+/workflows/
+/settings/
+/logs/
+/app/
+/dist/
+/publish/
+/output/
+/app.publish-*/
+/app.backup-*/
+/app.failed-*/
+/dist.temp-*/
+*.log
+*.bak
+
+# 本机快捷方式与系统缓存文件
+*.lnk
+Thumbs.db
+.DS_Store
+
+# Visual Studio / VSCode / JetBrains 缓存
+.vs/
+.vscode/
+*.user
+*.userosv
+*.suo
+*.ide
+.idea/
+
+# 本地 AI 上下文与开发助手元数据
+.agent/
+.codebuddy/
